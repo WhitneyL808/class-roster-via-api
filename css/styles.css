@@ -1,1 +1,21 @@
 /* My Styles */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 10px;
+}
+
+.gallery figure {
+    background: gray;
+}
+
+.gallery img {
+    /* fit images to container */
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    
+}
+
