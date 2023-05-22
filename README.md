@@ -8,15 +8,13 @@ Get, Show, and Style a Class Roster via our API data
 * Dynamically list content from an API data source
 * Seperate the data from the design
 * Use JS template literals for templating
-* `fetch` a JSON data endpoint from Webflow
+* `fetch` a JSON endpoint data
 * Apply foundations of a _headless CMS_
 
 ## API Endpoint
-API endpoint for the _Collection_ for Student submitted data. 
+Use API endpoint for the _Collection_ provided in class. 
 
-`https://v1.nocodeapi.com/pmanikoth/airtable/rsqhQzAAKcMyyPPW?tableName=Roster`
-
-## Sources
+## Citations
 List your sources here
 
 [Font Share](https://www.fontshare.com/)
