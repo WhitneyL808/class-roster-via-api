@@ -63,14 +63,17 @@ fetch( dataSource )
        // template for js to create 
     const template = `
 
-      <figure>
+      <figure class="roster">
+      <nav class="grid">
       <ul>
       <li>
-           <figcaption>${student.Name}</figcaption>
+           
            <img src="${student.Image}" alt="Student Name">
+           <figcaption>${student.Name}</figcaption>
            <p>${student.Quote}</p>
       </li>
       </ul>
+      </nav>
       </figure>
 
     `; 
