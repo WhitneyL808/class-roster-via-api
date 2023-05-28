@@ -44,6 +44,7 @@ const dataSource = "https://assets.codepen.io/16425/spring23web3.json";
 //get DOM elements
 const figcaption = document.querySelector('figcaption');
 const img = document.querySelector('figure img'); 
+const grid = document.querySelector(".grid");
 
 // fetch the data and set it 
 fetch( dataSource )
@@ -51,6 +52,7 @@ fetch( dataSource )
   .then( data  => {
   
   const roster = document.querySelector(".roster");
+  
       
     // console.log( data );
 //   figcaption.textContent = data[4].name
@@ -60,10 +62,17 @@ fetch( dataSource )
      
        // template for js to create 
     const template = `
+
       <figure>
+      <ul>
+      <li>
            <figcaption>${student.Name}</figcaption>
            <img src="${student.Image}" alt="Student Name">
+           <p>${student.Quote}</p>
+      </li>
+      </ul>
       </figure>
+
     `; 
   
   // put template on page 

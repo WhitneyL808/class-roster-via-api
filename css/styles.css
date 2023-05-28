@@ -15,7 +15,7 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
   
-  /* .grid ul {
+  .grid ul {
     list-style: none;
     margin: 1rem;
     padding: 0;
@@ -24,19 +24,19 @@
     gap: 1rem;
     grid-auto-flow: dense;
   }
-   */
+  
 
-  /* .grid li {
+  .grid li {
     border: 0.5rem solid green;
     display: flex;
     justify-content: center;
     align-items: center;
-  } */
-/*   
+  }
+  
   li.featured {
     grid-row: span 2;
     border-color: purple;
-  } */
+  }
 
  
   figure img{
