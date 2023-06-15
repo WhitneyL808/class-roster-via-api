@@ -15,8 +15,8 @@ fetch( dataSource )
       // template to reuse
       const template = `
         <figure style="background: ${student.Color}">
-         <figcaption> ${student.Name} </figcaption>
             <img src="${student.Image}" alt="Student Name">
+            <figcaption> ${student.Name} </figcaption>
          </figure>
       `
     
